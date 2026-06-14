@@ -1,4 +1,4 @@
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("891CzcendV5-S0AWp");
 
 function playMusic(){
 document.getElementById("bgMusic").play();
@@ -95,14 +95,14 @@ window.open(
 );
 
 emailjs.send(
-"YOUR_SERVICE_ID",
-"YOUR_TEMPLATE_ID",
+"service_2d6xdvq",
+"__ejs-test-mail-service__",
 {
 date,
 time,
 food,
 message,
-to_email:"[kgopaneanza1@gmail.com](mailto:kgopaneanza1@gmail.com)"
+to_email:"[kgopaneanza1@gmail.com](mailto:nethonondamuele@gmail.com)"
 }
 );
 
